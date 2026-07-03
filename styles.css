@@ -125,6 +125,14 @@ table.split a:active {
   font-size: 1.05rem;
 }
 
+.demo-link {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--accent);
+  margin-left: 0.5rem;
+  white-space: nowrap;
+}
+
 .movement-list ul {
   margin: 0;
   padding-left: 1.1rem;
@@ -219,5 +227,10 @@ table.split a:active {
   a {
     color: #000 !important;
     text-decoration: underline;
+  }
+
+  a.demo-link::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75rem;
   }
 }

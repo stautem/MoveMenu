@@ -9,9 +9,8 @@ Real names are never used anywhere in this repo. Plans are labeled generically (
 Everything is hand-written HTML, no build step:
 
 - `index.html` — landing page, links to each plan
-- `glute-general.html` / `balance-boss.html` — one page per plan (filenames are just internal labels, not shown to users)
+- `plan-a.html` / `plan-b.html` — one page per plan
 - `styles.css` — shared screen + print styles
-- `images/equipment/` — reference photos of available equipment
 
 To change a workout split, edit the `<table class="split">` rows. To change the movements available for a category, edit the matching `<div class="card">` section further down the same page. Each movement has an HTML comment (`<!-- image: none yet -->`) marking where a future image/GIF can be added.
 
