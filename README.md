@@ -2,14 +2,14 @@
 
 A no-frills gym reference: pick a plan, see the day's categories and sets/reps, tap a category to see movement options and how to do them. No login, no logging, no app — just a page to check on your phone at the gym or print out.
 
-Real names are never used anywhere in this repo. People are referred to by nickname only (`Glute General`, `Balance Boss`).
+Real names are never used anywhere in this repo. Plans are labeled generically (`Plan A`, `Plan B`), not tied to any person.
 
 ## Editing content
 
 Everything is hand-written HTML, no build step:
 
-- `index.html` — landing page, links to each person's plan
-- `glute-general.html` / `balance-boss.html` — one page per person
+- `index.html` — landing page, links to each plan
+- `glute-general.html` / `balance-boss.html` — one page per plan (filenames are just internal labels, not shown to users)
 - `styles.css` — shared screen + print styles
 - `images/equipment/` — reference photos of available equipment
 
